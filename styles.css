@@ -1,0 +1,55 @@
+/*css reset*/
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+nav,footer {
+	font-family: Aboreto, cursive;
+}
+
+#aboutme {
+	font-family: 'PT Serif', serif;
+	width: 80%;
+	height: 80vh;
+	background: lightgray;
+	opacity: 0.4;
+	position: relative;
+	left: 10vw;
+	z-index: -1;
+
+}
+
+#aboutme div {
+	position: relative;
+	z-index: 2;
+	opacity: 2;
+}
+
+header #img-div{
+	width: 15vw;
+	height: 25vh;
+	position: relative;
+	left: 22vw;
+	bottom: 62vh;
+	z-index: 3;
+}
+
+section {
+	font-family: 'PT Serif', sans-serif;
+}
+
+body {
+  background: url(./images/img2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+nav a:hover {
+	background-color: lightgray;
+}
+
+header #details p{
+	text-align: center;
+}
